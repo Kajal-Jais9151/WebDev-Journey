@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <form action="/submit" method="post">
+    <!-- Text input for username -->
+     <div id="username-container" class="form-group">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" placeholder="Enter your username" required>
+    </div>
+     <div id="city-container" class="form-group">
+
+        <label for="city">Choose a City:</label>
+
+        <select id="city" name="city">
+            <option value="">-- Select City --</option>
+
+            <option value="Delhi">Delhi</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Bengaluru">Bengaluru</option>
+            <option value="Hyderabad">Hyderabad</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Kolkata">Kolkata</option>
+            <option value="Pune">Pune</option>
+            <option value="Ahmedabad">Ahmedabad</option>
+            <option value="Jaipur">Jaipur</option>
+            <option value="Lucknow">Lucknow</option>
+            <option value="Surat">Surat</option>
+            <option value="Kanpur">Kanpur</option>
+            <option value="Nagpur">Nagpur</option>
+            <option value="Indore">Indore</option>
+            <option value="Bhopal">Bhopal</option>
+            <option value="Patna">Patna</option>
+            <option value="Varanasi">Varanasi</option>
+            <option value="Agra">Agra</option>
+            <option value="Chandigarh">Chandigarh</option>
+            <option value="Kochi">Kochi</option>
+            <option value="Visakhapatnam">Visakhapatnam</option>
+            <option value="Mysuru">Mysuru</option>
+            <option value="Noida">Noida</option>
+            <option value="Gurugram">Gurugram</option>
+            <option value="Prayagraj">Prayagraj</option>
+        </select>
+
+
+    </div>
+     <div id="pincode-container" class="form-group">
+    <label for="pincode">Pincode:</label>
+    <input type="text" id="pincode" name="pincode" placeholder="123456" required>
+    </div>
+
+    <!-- Password input -->
+    <div id="password-container" class="form-group">
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="k@j1234#." required>
+    </div>
+
+    <!-- Radio buttons for gender -->
+    <div id="gender-container" class="form-group">
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label>
+    </div>
+
+    <!-- Submit button -->
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
