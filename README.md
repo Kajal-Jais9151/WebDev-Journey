@@ -1,3 +1,4 @@
+
 :::writing{variant="document" id="62841"}
 # 🌐 My Web Development Journey
 
@@ -100,3 +101,4 @@ This repository documents my journey of learning Web Development, practicing con
 To become a skilled Software Developer by strengthening my Web Development fundamentals, building real-world projects, and consistently improving my coding skills.
 
 **Learning never stops!** 🚀
+
